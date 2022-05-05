@@ -28,7 +28,7 @@ const Pricing =()=> { return (  <>
         > <Features/>
         </Card>
       </VStack>
-    <Text mx={[10,10,0,80]} py={4} px={4}
+    <Text mx={[10,10,0,80]} py={4} px={4} color="white"
     >All prices are negotiable, everything depends on the scope of the project and in turn depends on many variables that are intrinsic to each specific project.</Text>
   </Box>
 </>  ); }; export { Pricing };
