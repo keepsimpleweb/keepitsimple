@@ -14,12 +14,12 @@ return ( <>
   <VStack pb={4} as="footer" alignItems="center" position='relative' zIndex="4" 
     sx={{backdropFilter: 'blur(40px)'}} fontSize={['sm','sm','lg']} 
   >
-    <Divider color="whiteAlpha.600"/>
+    <Divider color="whiteAlpha.600" />
 
     <Stack w="100%" alignItems="center"
       direction={{ base: 'column', md: 'row' }}
       justifyContent={{ base: 'center', md: 'space-between' }}
-    > <Text color={linkColor} margin="auto">
+    > <Text color='white' margin="auto">
         Copyright &copy;&nbsp; 2019{' '}-{' '}
         {new Date().getFullYear()} · Rodrigo Moreno &reg; All Rights Reserved
       </Text>
