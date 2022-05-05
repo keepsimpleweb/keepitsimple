@@ -7,14 +7,14 @@ import { Stack, VStack, Divider,
 import { TWITTER, GITHUB, EMAIL } from './socialLinks.jsx';
 
 const Footer =()=> { 
-  const linkColor = useColorModeValue('gray.600', 'white');
-  const textMode = useColorModeValue('gray.500', 'whiteAlpha.600');
+  const linkColor = useColorModeValue('white', 'white');
+  const textMode = useColorModeValue('whiteAlpha.600', 'whiteAlpha.600');
 
 return ( <>
   <VStack pb={4} as="footer" alignItems="center" position='relative' zIndex="4" 
     sx={{backdropFilter: 'blur(40px)'}} fontSize={['sm','sm','lg']} 
   >
-    <Divider/>
+    <Divider color="whiteAlpha.600"/>
 
     <Stack w="100%" alignItems="center"
       direction={{ base: 'column', md: 'row' }}

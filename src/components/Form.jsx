@@ -26,7 +26,7 @@ const data=`
     <input type="text" name="name" 
       value={data}
     />
-    <input type="hidden" name="_next" value="http://localhost:64340/keepitsimple/thanks/" />
+    <input type="hidden" name="_next" value="https://keepsimpleweb.github.io/" />
     <button type="submit" id="but">i</button>
   </form>
 </> ) }; export {Form, handleSend};
