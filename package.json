@@ -2,7 +2,7 @@
 	"name": "keepitsimple",
 	"version": "0.0.1",
 	"description": "With our digital solutions, we bring your company closer to the rest of the world. With nearly a decade of software development experience, we know what works!",
-	"homepage": "https://keepsimpleweb.github.io/",
+	"homepage": "https://keepitsimpleweb.github.io/",
 	"main": ".src/index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
