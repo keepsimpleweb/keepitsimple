@@ -4,7 +4,7 @@ import { Box, Heading , Button, Text } from "@chakra-ui/react";
 import { Animation } from "@components/Animation";
 import { MainCards } from "../components/MainCards";
 import { Cards } from "../components/Cards";
-import logo from "./logo.svg";
+import logo from "./Logo.svg";
 import "./module.css";
 
 const color = {
