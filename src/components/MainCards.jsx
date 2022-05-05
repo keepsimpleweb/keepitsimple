@@ -3,7 +3,7 @@ import {Image, Box,Heading, Flex, Stack, Container, SimpleGrid } from "@chakra-u
 import { HomepageSection } from "./Section";
 import { FeaturesBackground } from "./FeaturesBackground";
 import { HomepageFeatureCard } from "./HomepageFeatureCard";
-import logoGrand from "@pages/logo.svg";
+import logoGrand from "@pages/Logo.svg";
 import {x,y,z,w,v,t} from "./Image/inyector"
 
 const MainCards =()=> { return ( <>
